@@ -16,6 +16,9 @@
 /* SOCIALS: start */
 /* SOCIALS: end */
 
+/*  TESTIMONIALS: start */
+/*  TESTIMONIALS: end */
+
 /* SHOP BOOKS: start */
 /* SHOP BOOKS: end */
 
