@@ -1,29 +1,29 @@
-/* <!-- HEADER: start--> */
-/* <!-- HEADER: end--> */
+/* HEADER: start */
+/* HEADER: end */
 
-/* <!-- HERO: start--> */
-/* <!-- HERO: end--> */
+/* HERO: start */
+/* HERO: end */
 
-/* <!-- CHOOSE US: start--> */
-/* <!-- CHOOSE US: end--> */
+/* CHOOSE US: start */
+/* CHOOSE US: end */
 
-/* <!-- METRICS: start--> */
-/* <!-- METRICS: end--> */
+/* METRICS: start */
+/* METRICS: end */
 
-/* <!-- VIDEO: start--> */
-/* <!-- VIDEO: end--> */
+/* VIDEO: start */
+/* VIDEO: end */
 
-/* <!-- SOCIALS: start--> */
-/* <!-- SOCIALS: end--> */
+/* SOCIALS: start */
+/* SOCIALS: end */
 
-/* <!-- SHOP BOOKS: start--> */
-/* <!-- SHOP BOOKS: end--> */
+/* SHOP BOOKS: start */
+/* SHOP BOOKS: end */
 
-/* <!-- BLOG: start--> */
-/* <!-- BLOG: end--> */
+/* BLOG: start */
+/* BLOG: end */
 
-/* <!-- CREATIVE: start--> */
-/* <!-- CREATIVE: end--> */
+/* CREATIVE: start */
+/* CREATIVE: end */
 
-/* <!-- FOOTER: start--> */
-/* <!-- FOOTER: end--> */
+/* FOOTER: start */
+/* FOOTER: end */
