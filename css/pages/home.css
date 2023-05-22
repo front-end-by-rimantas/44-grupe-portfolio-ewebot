@@ -9,6 +9,39 @@
 /* CUSTOM CSS */
 
 /*  HEADER: start */
+.logo {
+    width: 150px;
+}
+
+.link {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: #ffff;
+    margin-left: 20px;
+    
+}
+.link:hover {
+    color: #cf2e2e;
+}
+
+body {
+    background-image: url('../../img/header/home12_bg.jpg');
+    background-repeat: no-repeat;
+}
+
+.header {
+    margin-left: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 50px;
+}
+
+.menu {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
 /*  HERO: start */
 .hero-h1 {
     font-size: 70px;
