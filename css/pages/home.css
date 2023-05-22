@@ -50,8 +50,6 @@ body {
 }
 .hero-para {
     font-size: 18px;
-    margin-top: 30px;
-    margin-bottom: 20px;
 }
 /* .latest-video-popup {
     width: 50px;
@@ -60,17 +58,7 @@ body {
     color: #94ECE3;
     border-radius: 50%;
 } */
-.contact-btn {
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 500;
-}
-.video-popup-h2 {
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 1em;
-    text-transform: uppercase;
-}
+
 /*  CHOOSE US: start */
 /*  METRICS: start */
 /*  VIDEO: start */
