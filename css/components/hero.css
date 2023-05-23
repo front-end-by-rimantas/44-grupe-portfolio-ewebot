@@ -39,6 +39,13 @@
     top: 500px;
     left: 550px;
 }
+.row.btn {
+    position: static;
+}
+.contact-button.hero {
+    background-color: transparent;
+    border: 1px solid #696687;
+}
 /* .latest-video-popup {
     width: 50px;
     min-width: 50px;
@@ -46,3 +53,5 @@
     color: #94ECE3;
     border-radius: 50%;
 } */
+
+
