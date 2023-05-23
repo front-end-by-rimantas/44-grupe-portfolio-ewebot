@@ -1,0 +1,15 @@
+.brands {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 40px;
+}
+
+.branimg {
+    width: 200px;
+}
+.brantext {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 50px;
+    line-height: 1;
+}
