@@ -2,6 +2,18 @@
     width: 100%;
 }
 
+.quotesimg {
+    width: 65px;
+}
+
+.section-title-1 {
+    color: var(--main-color-dark);
+    font-family: "Source Sans Pro";
+    font-size: 43px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 43px;
+}
 
 .testimonials-title {
     font-family: "Rubik", sans-serif;
@@ -21,17 +33,6 @@
     text-align: left;
 };
 
-.row .quotesimg {
-    width: 65px;
-}
 
-.row .section-title-1 {
-    color: var(--main-color-dark);
-    font-family: "Source Sans Pro";
-    font-size: 43px;
-    font-weight: 700;
-    text-transform: capitalize;
-    line-height: 43px;
-}
 
 
