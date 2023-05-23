@@ -6,9 +6,9 @@
 
 /* components */
 @import '../components/brands.css';
+@import '../components/hero.css';
 @import '../pages/metrics.css';
 @import '../components/latest.css';
-
 /* CUSTOM CSS */
 
 /*  HEADER: start */
@@ -46,54 +46,6 @@ body {
     vertical-align: top;
 }
 /*  HERO: start */
-.hero-h1 {
-    font-size: 70px;
-    font-weight: 700;
-    line-height: 1.05em;
-    font-family: "Source Sans Pro";
-    color:#FFFFFF;
-
-}
-
-.latest-video-h2 {
-    font-family: "Rubik";
-    font-size: 12px;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.container,
-.container-fluid
-.hero {
-    padding-top: 0px;
-}
-
-.hero-column {
-    padding-top: 100px;
-}
-
-.hero-img {
-    position: relative;
-
-}
-.social-profile-img {
-    position: absolute;
-    top: 120px;
-    right: -200px;
-}
-.Mary-J-img {
-    position: absolute;
-    bottom: 120px;
-}
-/* .latest-video-popup {
-    width: 50px;
-    min-width: 50px;
-    height: 50px;
-    color: #94ECE3;
-    border-radius: 50%;
-} */
-
 /*  CHOOSE US: start */
 /*  METRICS: start */
 /*  VIDEO: start */
