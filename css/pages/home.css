@@ -6,8 +6,12 @@
 
 /* components */
 @import '../components/brands.css';
+
+@import '../components/metrics.css';
+
 @import '../components/hero.css';
 @import '../pages/metrics.css';
+
 @import '../components/latest.css';
 /* CUSTOM CSS */
 
