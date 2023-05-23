@@ -71,6 +71,11 @@ body {
 /*  CHOOSE US: start */
 /*  METRICS: start */
 /*  VIDEO: start */
+.latest-bg{
+    background-image: url('../../img/latest-video/home12_video_bg.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
 /*  SOCIALS: start */
 /*  TESTIMONIALS: start */
 
