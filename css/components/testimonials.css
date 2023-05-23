@@ -1,0 +1,37 @@
+.testimonials-img {
+    width: 100%;
+}
+
+
+.testimonials-title {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    color: #3b3663;
+    line-height: 18px;
+    font-weight: bold;
+    text-transform: capitalize;   
+}
+
+.testimonials-sub-name {
+    color: var(--light-grey-color-in-white);
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 200;
+    line-height: 16px;
+    text-align: left;
+};
+
+.row .quotesimg {
+    width: 65px;
+}
+
+.row .section-title-1 {
+    color: var(--main-color-dark);
+    font-family: "Source Sans Pro";
+    font-size: 43px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 43px;
+}
+
+
