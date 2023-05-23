@@ -71,18 +71,19 @@ body {
     padding-top: 100px;
 }
 
-.hero-img {
+.hero-additional-images {
     position: relative;
 
 }
 .social-profile-img {
     position: absolute;
-    top: 120px;
-    right: -200px;
+    top: 150px;
+    right: -60px;
 }
 .Mary-J-img {
     position: absolute;
-    bottom: 120px;
+    top: 500px;
+    left: 550px;
 }
 /* .latest-video-popup {
     width: 50px;
