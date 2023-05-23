@@ -51,6 +51,7 @@ body {
     color:#FFFFFF;
 
 }
+
 .latest-video-h2 {
     font-family: "Rubik";
     font-size: 12px;
@@ -59,6 +60,29 @@ body {
     color: #FFFFFF;
 }
 
+.container,
+.container-fluid
+.hero {
+    padding-top: 0px;
+}
+
+.hero-column {
+    padding-top: 100px;
+}
+
+.hero-img {
+    position: relative;
+
+}
+.social-profile-img {
+    position: absolute;
+    top: 120px;
+    right: -200px;
+}
+.Mary-J-img {
+    position: absolute;
+    bottom: 120px;
+}
 /* .latest-video-popup {
     width: 50px;
     min-width: 50px;
