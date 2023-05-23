@@ -47,10 +47,18 @@ body {
     font-size: 70px;
     font-weight: 700;
     line-height: 1.05em;
+    font-family: "Source Sans Pro";
+    color:#FFFFFF;
+
 }
-.hero-para {
-    font-size: 18px;
+.latest-video-h2 {
+    font-family: "Rubik";
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
+
 /* .latest-video-popup {
     width: 50px;
     min-width: 50px;
