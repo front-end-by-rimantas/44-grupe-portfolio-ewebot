@@ -1,6 +1,7 @@
 /* base */
 @import '../base/base.css';
 @import '../base/layout.css';
+@import '../components/latest.css';
 @import '../pages/metrics.css';
 
 /* vendors */
