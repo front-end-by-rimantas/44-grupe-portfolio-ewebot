@@ -1,13 +1,14 @@
 /* base */
 @import '../base/base.css';
 @import '../base/layout.css';
-@import '../pages/metrics.css';
 
 /* vendors */
 
 /* components */
 @import '../components/brands.css';
 @import '../components/hero.css';
+@import '../pages/metrics.css';
+@import '../components/latest.css';
 /* CUSTOM CSS */
 
 /*  HEADER: start */
