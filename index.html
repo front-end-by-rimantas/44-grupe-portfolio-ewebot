@@ -14,6 +14,8 @@
     <meta name="theme-color" content="#ffffff">
     <title>Home</title>
     <link rel="stylesheet" href="./css/pages/home.css">
+    <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
     <!-- analytics script -->
 </head>
 
@@ -22,10 +24,10 @@
 
     <!-- HEADER: start-->
     <header class="container">
-        <div class="row">
+        <div class="row header">
             <div class="col-12">
-                <img src="#" alt="logo" class="logo">
-                <nav>
+                <img src="./img/header/logo-red.png" alt="logo" class="logo">
+                <nav class="menu">
                     <a class="link" href="#">Home</a>
                     <a class="link" href="#">Pages</a>
                     <a class="link" href="#">Mega Menu</a>
@@ -33,26 +35,24 @@
                     <a class="link" href="#">Shop</a>
                     <a class="link" href="#">Contacts</a>
                 </nav>
-                <a href="#">Contact today</a>
+                <a class="header-button" href="#"></a>
             </div>
         </div>
-     </header>
+    </header>
     <!-- HEADER: end-->
 
-    
     <main>
-
 
     <!-- HERO: start-->
     <section class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-5">
                 <h1 class="hero-h1">Influencer Marketing for Your Ideas </h1>
-                <p class="hero-para">Extract real business value from social media. Ensuring the best return on investment for your bespoke SEO campaign requirement.</p>
+                <p class="paragraph-2">Extract real business value from social media. Ensuring the best return on investment for your bespoke SEO campaign requirement.</p>
                 <div class="row">
-                    <button class="col-5 contact-btn">Contact today</button>
-                    <a class="col-2 latest-video-popup" href="#">btn</a>
-                    <h2 class="col-5 video-popup-h2">My latest video</h2>
+                    <button class="col-5">Contact today</button>
+                    <a class="col-2" href="#">btn</a>
+                    <h2 class="col-5 latest-video-h2">My latest video</h2>
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-7">
@@ -95,12 +95,16 @@
     <!-- METRICS: start-->
     <section class="container">
         <div class="row">
-            <div class="col-12 col-sm-10 ml-sm-1 col-md-12 ml-md-0 col-lg-6">Social metrics</div>
-            <div class="col-12 col-sm-10 ml-sm-1 col-md-12 ml-md-0 col-lg-6">523k</div>
-            <div class="col-12 col-sm-10 ml-sm-1 col-md-12 ml-md-0 col-lg-6">12.0k</div>
-            <div class="col-12 col-sm-10 ml-sm-1 col-md-12 ml-md-0 col-lg-6">26m</div>
-            <div class="col-12 col-sm-10 ml-sm-1 col-md-12 ml-md-0 col-lg-6">314k</div>
-            <div class="col-12 col-sm-10 ml-sm-1 col-md-12 ml-md-0 col-lg-6">img</div>
+            <div class="col-12 col-md-6">
+                <div>Social metrics</div>
+                <p>Social Analyst</p>
+                <p>Text</p>
+                <div>523k</div>
+                <div>12.0k</div>
+                <div>26m</div>
+                <div>314k</div>
+            </div>
+            <div class="col-12 col-md-6 ">img</div>
         </div>
     </section>
     <!-- METRICS: end-->
@@ -116,68 +120,88 @@
             <div class="col-8 ml-2 col-sm-10 ml-sm-1 col-md-8 ml-md-2 col-lg-6 ml-lg-3 ">
                 <p class="paragraph-2 latest-paragraph">We are passionate about our work. Our designers stay ahead of the curve to provide engaging and user-friendly website designs to make your business stand out.</p>
             </div>
-        </div>
-    </section>
+        </section>
     <!-- LATEST: end-->
 
     <!-- SOCIALS: start-->
-    <section class="container">
-        <div class="row">
-            <div class="col-12 col-md-6 ">
-                <h2 class="Text">Text</h2>
+        <section class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 ">
+                    <h2 class="Text">Text</h2>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img class="col-12" src="" alt="Story">
+                    <img class="col-12" src="" alt="Airtrack">
+                    <img class="col-12" src="" alt="Zazzle Media">
+                    <img class="col-12" src="" alt="Radix">
+                    <img class="col-12" src="" alt="Myob">
+                    <img class="col-12" src="" alt="Sylexcoin">
+                </div> 
             </div>
-            <div class="col-12 col-md-6">
-                <img class="col-12" src="" alt="Story">
-                <img class="col-12" src="" alt="Airtrack">
-                <img class="col-12" src="" alt="Zazzle Media">
-                <img class="col-12" src="" alt="Radix">
-                <img class="col-12" src="" alt="Myob">
-                <img class="col-12" src="" alt="Sylexcoin">
-            </div> 
-        </div>
-        </section>
+            </section>
     <!-- SOCIALS: end-->
 
     <!-- TESTIMONIALS: start-->        
-    <section class="container">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-6 ">
-              <img src="#" alt="qimage">
-            </div>
-            <div class="col-12 col-sm-12 col-md-6 ">
-                testimonials
-            </div>
-        </div>     
+        <section class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 ">
+                  <img class="testimonials-img"  src="./img/testimonials/imgTestimonials.png" alt="qimage">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 ">
+                    testimonials
+                </div>
+            </div>     
 
-    </section>
+        </section>
     <!-- TESTIMONIALS: end-->
 
     <!-- SHOP-BOOKS: start-->
-    <section>
-        SHOP BOOKS
-    </section>
+        <section>
+            SHOP BOOKS
+        </section>
     <!-- SHOP-BOOKS: end-->
 
     <!-- BLOG: start-->
-    <section>
-        FROM THE BLOG
-    </section>
-    <!-- BLOG: end-->
+        <section class="container">
+            <div class="row">
+                <div class="col-12">
+                    FROM THE BLOG
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4"></div>
+                <div class="col-12 col-sm-12 col-md-4"></div>
+                <div class="col-12 col-sm-12 col-md-4"></div>
+            </div>
+        </section>
+     <!-- BLOG: end-->
 
     <!-- CREATIVE: start-->
-    <section class="container">
-        <div class="row">
-            CREATIVE IMAGES
-        </div>
-    </section>
+        <section class="container">
+            <div class="row">
+                CREATIVE IMAGES
+            </div>
+        </section>
     <!-- CREATIVE: end-->
-
-
     </main>
 
     <!-- FOOTER: start-->
-    <footer>
-        FOOTER
+    <footer class="container">
+        <div class="row">
+            <div class="col-12 col-sm-10 ml-sm-1 col-md-3 ml-md-0">Quick Links</div>
+            <div class="col-12 col-sm-10 ml-sm-1 col-md-3 ml-md-0">Services</div>
+            <div class="col-12 col-sm-10 ml-sm-1 col-md-3 ml-md-0">Community</div>
+            <div class="col-12 col-sm-10 ml-sm-1 col-md-3 ml-md-0">Get In Touch</div>
+        </div>
+        <div class="row">
+            <h2 class="col-12 col-sm-10 ml-sm-1 col-md-6 ml-md-3">Sign up</h2>
+            <p class="col-12 col-sm-10 ml-sm-1 col-md-8 ml-md-2">Text</p>
+            <div class="col-12 col-sm-10 ml-sm-1 col-md-6 ml-md-2">Email area</div>
+            <div class="col-12 col-sm-10 ml-sm-1 col-md-2 ml-md-0">Button</div> 
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-10 ml-sm-1 col-md-6 ml-md-3">Copyright</div>
+        </div>
     </footer>
     <!-- FOOTER: end-->
 
