@@ -64,13 +64,15 @@ body {
     font-weight: 400;
     margin-top: 30px;
     margin-bottom: 20px;
+    line-height: 1.5em;
 }
 /* for paragraph in blue backgound */
 .paragraph-2 {
     color: var(--light-grey-color-in-blue);
-    font-family: "Rubik", sans-serif;
+    font-family: "Rubik";
     font-size: 16px;
     font-weight: 400;
     margin-top: 30px;
     margin-bottom: 20px;
+    line-height: 1.5em;
 }
