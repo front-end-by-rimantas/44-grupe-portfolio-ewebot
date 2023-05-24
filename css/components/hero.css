@@ -6,13 +6,59 @@
     color:#FFFFFF;
 
 }
+.paragraph-2.hero {
+    font-size: 18px;
+}
 
-.latest-video-h2 {
+.contact-button.hero {
+    background-color: transparent;
+    border: 1px solid #696687;
+    position: unset;
+    left: 0%;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 0;
+
+}
+
+ .btn .latest-video-popup {
+    width: 50px;
+    min-width: 50px;
+    height: 50px;
+    background-color: #94ECE3;
+    border-color: #030C26;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+} 
+
+.latest-video-popup svg {
+    fill:#030C26;
+    stroke: #030C26;
+    position: absolute;
+    top: 16px;
+    left: 20px;
+}
+
+.latest-video-popup:hover {
+    background-color:var(--secondary-color);
+} 
+
+.latest-video-popup svg:hover {
+    fill:var(--main-color-light);
+    stroke:var(--main-color-light);
+}
+
+.btn .latest-video-h2 {
     font-family: "Rubik";
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding-top:16px;
+    margin-left: 10px;
+    
 }
 
 .container,
@@ -25,24 +71,29 @@
     padding-top: 100px;
 }
 
-.hero-additional-images {
+.hero-images {
     position: relative;
+    align-items:center ;
 
 }
 .social-profile-img {
     position: absolute;
-    top: 150px;
-    right: -60px;
+    top: 25%;
+    right: 12%;
 }
 .Mary-J-img {
     position: absolute;
-    top: 500px;
-    left: 550px;
+    top: 63%;
+    right: 42%;
 }
-/* .latest-video-popup {
-    width: 50px;
-    min-width: 50px;
-    height: 50px;
-    color: #94ECE3;
-    border-radius: 50%;
+
+/* @media (max-width: 992px) {
+    .social-profile-img {
+        height: 97px;
+        width: 145px;
+    }
+    .Mary-J-img {
+        height:55px ;
+        width: 153px;
+    }
 } */
