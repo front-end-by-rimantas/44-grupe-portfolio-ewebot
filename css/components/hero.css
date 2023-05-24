@@ -87,6 +87,16 @@
     right: 42%;
 }
 
+.lord-icon lord-icon {
+    height: 90px;
+    width: 90px;
+    background-color:var(--main-color-light);
+    border-radius: 50px 50px 50px 50px;
+    position: absolute;
+    top: 20%;
+    right: 50%;
+}
+
 /* @media (max-width: 992px) {
     .social-profile-img {
         height: 97px;
