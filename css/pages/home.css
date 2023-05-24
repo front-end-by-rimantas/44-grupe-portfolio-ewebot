@@ -50,25 +50,32 @@ body {
 }
 /*  HERO: start */
 /*  CHOOSE US: start */
+
 .choose {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
 }
-.choose >.row {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    align-items: center;
+
+.choose > .choose {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
 }
+
 .choose-box {
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
-    position: relative;
-    width: 100%;
     background-color: #ffff;
     border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+    .choose {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
 }
 
 
