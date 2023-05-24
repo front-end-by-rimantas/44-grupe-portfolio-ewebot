@@ -1,0 +1,8 @@
+.blog {
+    text-align: center;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: column;
+}

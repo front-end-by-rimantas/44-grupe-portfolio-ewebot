@@ -1,0 +1,16 @@
+.homebutton {
+   
+    padding: 16px 15px;
+    border-radius: 30px;
+    border: solid 2px #dce2f7;
+    position: relative;
+    text-decoration: none;
+    color: #908daa;
+    text-transform: uppercase;
+    align-items: center;
+}
+.homebutton:hover {
+    color: white;
+    background-color: #030C26;
+    transition: all 0.7s;
+}
