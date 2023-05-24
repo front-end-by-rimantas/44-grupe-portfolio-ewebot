@@ -1,0 +1,18 @@
+.counter-title {
+    color: #030c26;
+    font-family: "Nunito";
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.section-title-1 {
+    color: var(--main-color-dark);
+    font-family: "Source Sans Pro";
+    font-size: 43px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 43px;
+}
