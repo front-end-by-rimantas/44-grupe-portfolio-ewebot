@@ -1,0 +1,11 @@
+.creative-imgs {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.creative-img {
+    width: 400px;
+    height: auto;
+}
