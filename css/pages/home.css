@@ -5,6 +5,7 @@
 /* vendors */
 
 /* components */
+@import '../components/testimonials.css';
 @import '../components/brands.css';
 @import '../components/metrics.css';
 @import '../components/hero.css';
@@ -59,13 +60,6 @@ body {
 }
 /*  SOCIALS: start */
 /*  TESTIMONIALS: start */
-
-.testimonials-img {
-    width: 100%;
-}
-
-/*  TESTIMONIALS: end */
-
 /*  SHOP BOOKS: start */
 /*  BLOG: start */
 /*  CREATIVE: start */
