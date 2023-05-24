@@ -49,16 +49,19 @@
     width: 100%;
     padding: 60px 0;
     float: left;
+    background-color: yellow;
 }
 .container > .row {
     width: var(--width);
     margin: 20px calc((100% - var(--width)) / 2);
     float: left;
+    background-color: aqua;
 }
 .container-fluid > .row {
     width: 100%;
     margin: 20px 0;
     float: left;
+    background-color: beige;
 }
 
 .row > [class*='col-'] {
