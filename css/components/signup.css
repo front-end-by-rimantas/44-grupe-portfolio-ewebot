@@ -32,7 +32,7 @@
     display: none;
 }
 .signup input {
-    width: 100%;
+    width: 62%;
     border-radius: 5px 0px 0px 5px;
     padding: 11px 20px;
     font-family: inherit;
@@ -46,3 +46,4 @@
     color: #454D65;
     font-style: italic;
 }
+
