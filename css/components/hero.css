@@ -71,20 +71,29 @@
     padding-top: 100px;
 }
 
-.hero-additional-images {
+.hero-images {
     position: relative;
+    align-items:center ;
 
 }
 .social-profile-img {
     position: absolute;
-    top: 150px;
-    right: -60px;
+    top: 25%;
+    right: 12%;
 }
 .Mary-J-img {
     position: absolute;
-    top: 500px;
-    left: 550px;
+    top: 63%;
+    right: 42%;
 }
 
-
-
+/* @media (max-width: 992px) {
+    .social-profile-img {
+        height: 97px;
+        width: 145px;
+    }
+    .Mary-J-img {
+        height:55px ;
+        width: 153px;
+    }
+} */
