@@ -1,3 +1,9 @@
+// IMPORTS
+import scrollFunction from '../components/scrollBtn-1.js';
+import scrollWindow from '../components/scrollBtn-2.js';
+
+// EXECUTION
+
 /* HEADER: start */
 window.addEventListener('scroll', function () {
     if (window.pageYOffset) {
@@ -10,6 +16,8 @@ window.addEventListener('scroll', function () {
 /* HEADER: end */
 
 /* HERO: start */
+scrollFunction();
+scrollWindow();
 /* HERO: end */
 
 /* CHOOSE US: start */

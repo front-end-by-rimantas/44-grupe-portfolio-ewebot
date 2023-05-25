@@ -15,10 +15,18 @@
   cursor: pointer;
   transition: all 0.3s;
   text-align: center;
-  padding: 16px 13px;
+  padding: 13px 15px;
 }
 
 #scrollBtn:hover {
-    background-color:rgb(67, 30, 93) ;
+   background-color:rgb(67, 30, 93) ;
 }
 
+.scroll-pointer {
+    height: 17px;
+}
+
+.scroll-pointer:hover {
+    height: 17px;
+    color: var(-main-color-light);
+}
