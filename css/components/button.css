@@ -55,4 +55,5 @@
 .btn-signup::after {
     content: ' ->';
     opacity: .5;
+
 }
