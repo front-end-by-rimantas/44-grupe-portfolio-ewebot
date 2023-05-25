@@ -68,6 +68,35 @@ header.active {
 }
 /*  HERO: start */
 /*  CHOOSE US: start */
+
+.choose {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.choose > .choose {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.choose-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffff;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+    .choose {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+
 /*  METRICS: start */
 /*  VIDEO: start */
 .latest-bg{
