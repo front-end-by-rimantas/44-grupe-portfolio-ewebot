@@ -74,6 +74,7 @@ header.active {
     background-image: url('../../img/latest-video/home12_video_bg.jpg');
     background-position: top center;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 /*  SOCIALS: start */
 /*  TESTIMONIALS: start */
