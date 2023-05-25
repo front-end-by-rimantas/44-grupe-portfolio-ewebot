@@ -36,13 +36,14 @@
 }
 
 .btn-signup {
-    padding: 15px 20px 15px 20px;
+    width: 30%;
+    padding: 15px 15px 15px 15px;
     border-radius: 0px 5px 5px 0px;
     background-color: #141D38;
     border: 0px;
-    position: relative;
     text-decoration: none;
     color: #FFFFFF;
+    line-height: 15px;
     cursor: pointer;
 }
 
@@ -54,4 +55,5 @@
 .btn-signup::after {
     content: ' ->';
     opacity: .5;
+
 }
