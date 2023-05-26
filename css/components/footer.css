@@ -43,6 +43,17 @@ ul,
 
 .copyright {
     color: #454D65;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
+}
+
+.container >.border {
+    border-top:0.02rem solid #69737F;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+.row .border {
+    margin-bottom: 0;
 }
