@@ -47,12 +47,19 @@
     font-style: italic;
 }
 
-/* @media (min-width: 320px) {
+ @media (max-width: 768px) {
    .signup,
-    .btn-signup {
+   .btn-signup
+    {
       width: 100%;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-} */
+      flex-direction: column;
+      text-align: center;
+      border-radius: 5px 5px;
+}   
+    .signup input {
+      border-radius: 5px 5px 5px 5px;
+      width: 100%;
+      margin-bottom: 20px;
+ }
+}
 
