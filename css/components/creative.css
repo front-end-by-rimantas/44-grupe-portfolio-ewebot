@@ -1,11 +1,20 @@
-.creative-imgs {
+.creative {
     overflow: hidden;
     display: flex;
     flex-direction: row;
+    padding: 45px 0px 0px ;
+    position: relative;
 
+}
+
+.creative-wrap {
+    display: flex;
 }
 
 .creative-img {
-    width: 400px;
+    width: 300px;
     height: auto;
 }
+
+
+
