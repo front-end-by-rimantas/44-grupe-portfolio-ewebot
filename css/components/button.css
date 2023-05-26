@@ -42,3 +42,27 @@
     background-color: #1a233e;
     transition: all 0.7s;
 }
+
+.btn-signup {
+    width: 30%;
+    padding: 15px 15px 15px 15px;
+    border-radius: 0px 5px 5px 0px;
+    align-items: center;
+    background-color: #141D38;
+    border: 0px;
+    text-decoration: none;
+    color: #FFFFFF;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+.btn-signup:hover {
+    background-color: #696687;
+    transition: all 1.6s;
+}
+
+.btn-signup::after {
+    content: ' ->';
+    opacity: .5;
+
+}
