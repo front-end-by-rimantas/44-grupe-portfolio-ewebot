@@ -9,8 +9,28 @@
     text-transform: uppercase;
     align-items: center;
 }
+
 .homebutton:hover {
     color: white;
     background-color: #030C26;
+    transition: all 0.7s;
+}
+
+/* for button in blue background */
+
+.homebutton2 {
+    padding: 16px 15px;
+    border-radius: 30px;
+    border: solid 2px rgb(105, 102, 135);
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    align-items: center;
+    background-color: #030c26;
+}
+
+.homebutton2:hover {
+    background-color: #1a233e;
     transition: all 0.7s;
 }
