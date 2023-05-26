@@ -26,3 +26,18 @@ ul {
   
 }
 
+.socials {
+    display: flex;
+    gap: 1em;
+}
+
+.socials > .social-link {
+    width: 1em;
+    height: 1em;
+    color: #69737F;
+    text-decoration: none;
+}
+
+.socials > .social-link:hover {
+    color: #454D65;
+}
