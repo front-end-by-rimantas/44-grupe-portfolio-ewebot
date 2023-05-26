@@ -17,8 +17,12 @@
 @import '../components/blog.css';
 @import '../components/button.css';
 @import '../components/signup.css';
+@import '../components/footer.css';
 
 /* CUSTOM CSS */
+
+/* 3rd-party */
+@import '../3rd-party/font-awesome.min.css';
 
 /*  HEADER: start */
 .logo {
@@ -112,3 +116,7 @@ header.active {
 /*  BLOG: start */
 /*  CREATIVE: start */
 /*  FOOTER: start */
+
+footer {
+    background-color: #030c26;
+}
