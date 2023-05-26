@@ -3,28 +3,29 @@
     font-size: 21px;
 }
 
-.footer-link {
+.footer-link,
+.tel,
+.email {
     color: #454D65;
     text-decoration: none;
+    font-size: 18px;
 }
 
-.footer-link:hover {
+.footer-link:hover,
+.tel:hover,
+.email:hover {
     color: #69737F;
 }
 
-ul {
+ul,
+.contact-us {
     list-style-type: none;
     padding-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-
 }
 
-.link-title > li {
-    padding-bottom: 30px; 
-  
-}
 
 .socials {
     display: flex;
@@ -32,8 +33,6 @@ ul {
 }
 
 .socials > .social-link {
-    width: 1em;
-    height: 1em;
     color: #69737F;
     text-decoration: none;
 }
