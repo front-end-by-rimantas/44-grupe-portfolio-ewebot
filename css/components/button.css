@@ -5,6 +5,10 @@
     border: solid 2px #dce2f7;
     position: relative;
     text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
     color: #908daa;
     text-transform: uppercase;
     align-items: center;
@@ -24,6 +28,10 @@
     border: solid 2px rgb(105, 102, 135);
     position: relative;
     text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
     color: white;
     text-transform: uppercase;
     align-items: center;
