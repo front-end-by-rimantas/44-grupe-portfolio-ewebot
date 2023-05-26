@@ -8,6 +8,10 @@
     text-decoration: none;
 }
 
+.footer-link:hover {
+    color: #69737F;
+}
+
 ul {
     list-style-type: none;
     padding-top: 20px;
@@ -21,3 +25,4 @@ ul {
     padding-bottom: 30px; 
   
 }
+
