@@ -40,3 +40,9 @@ ul,
 .socials > .social-link:hover {
     color: #454D65;
 }
+
+.copyright {
+    color: #454D65;
+    font-size: 18px;
+    text-align: center;
+}
