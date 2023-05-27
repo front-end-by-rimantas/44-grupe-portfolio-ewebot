@@ -1,18 +1,25 @@
+.latest {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
 .latest-img {
     border-radius: 10px;
+    background-size: cover;
+    box-shadow: 0px 57px 70px 0px;
+    /*margin: -85px 0px 54px 0px;*/
 }
 
-.latest-text {
-    text-align: center;
-}
-
-.latest-title {
+.latest-text .latest-title {
     text-align: center;
     line-height: 2.8em;
 }
 
 .latest-paragraph {
-    text-align: center;
     line-height: 1.7em;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
+
+
 

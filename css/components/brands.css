@@ -1,15 +1,33 @@
 .brands {
     display: grid;
     grid-template-columns: 50% 50%;
-    gap: 40px;
+    gap: 30px;
+    
+  
+
 }
 
 .branimg {
-    width: 200px;
+    width: 150px;
+    
 }
 .brantext {
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 15px;
-    font-size: 50px;
-    line-height: 1;
+    font-size: 10px;
+    
+}
+
+@media (min-width: 340px) {
+    .brands {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+}
+@media (min-width: 768px) {
+    .brands {
+        display: grid;
+    }
 }
