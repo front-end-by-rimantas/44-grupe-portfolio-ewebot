@@ -1,0 +1,26 @@
+.booksCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .cover {
+        object-fit: cover;
+        width: 270px;
+        height: 270px;
+        margin: 0;
+    }
+    
+    .booksMargin {
+        margin: 5px !important;
+    }
+    .booksMarginTop {
+        margin-top: 5px  !important;
+    }
+    
+    .booksPar {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        padding-right: 50px;
+    }
