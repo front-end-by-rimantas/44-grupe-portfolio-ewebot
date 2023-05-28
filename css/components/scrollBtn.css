@@ -1,0 +1,49 @@
+
+#scrollBtn {
+  background-color: #e9e9e9;
+  border: None;
+  border-radius: 4px;
+  padding: 10px 20px;
+  display: block; 
+  position: fixed; 
+  bottom: 30px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none;
+  border-radius: 50%; 
+  outline: none; 
+  background: #141d38;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+  padding: 13px 15px;
+  width: 40px;
+  height: 40px;
+}
+
+#scrollBtn:hover {
+  background-color:rgb(67, 30, 93);
+}
+
+#scrollBtn span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.arrow {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #333;
+  border-top: 2px solid #333;
+  transform: rotate(-45deg);
+  transition: border-color 0.3s ease;
+  vertical-align: middle;
+}
+
+#scrollBtn:hover .arrow {
+  border-color: #fff;
+}
+

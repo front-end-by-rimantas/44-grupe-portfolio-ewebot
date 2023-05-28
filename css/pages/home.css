@@ -16,6 +16,8 @@
 @import '../components/creative.css';
 @import '../components/blog.css';
 @import '../components/button.css';
+@import '../components/scrollBtn.css';
+@import '../components/books.css';
 @import '../components/signup.css';
 @import '../components/footer.css';
 
@@ -78,25 +80,27 @@ header.active {
 .choose {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 10px;
-    gap: 30px;
+    gap: 20px;
     align-items: start;
+    text-align: left;
 }
 
 .choose > .choose {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 5px;
    
 }
 
 .choose-box {
+    background-color: #ffff;
     display: flex;
     flex-direction: column;
     padding: 30px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: left;
+    box-shadow: 15px 15px 40px 0px #F4F6F7;
 }
 
 @media (min-width: 768px) {
@@ -105,11 +109,14 @@ header.active {
         gap: 30px;
     }
 }
-.choose-img {
-    position: relative;
-    
-   }
 
+.marker {
+    width: 20px;
+    }
+
+.row > .right-column {
+    margin-top: 120px;
+}
 
 /*  METRICS: start */
 /*  VIDEO: start */

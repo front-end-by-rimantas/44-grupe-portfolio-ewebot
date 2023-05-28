@@ -1,11 +1,58 @@
-.creative-imgs {
+.container {
+    /*padding: 0;*/
+}
+
+.creative {
+    /*background-color: #030c26;*/
     overflow: hidden;
+    padding: 0;
     display: flex;
     flex-direction: row;
+    position: relative;
+}
 
+.creative-wrap {
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.text-wrap {
+    position: absolute;
+    bottom: 50px;
+    left: 16px;
+    width: 100%; 
+    transition: transform 0.5s ease;
+    margin-left: 10px;
+}
+
+.creative-wrap:hover .text-wrap {
+    transform: translateY(-20%);
+    transition: transform 0.5 ease;
 }
 
 .creative-img {
-    width: 400px;
+    width: 380px;
     height: auto;
+}
+
+.title-2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.title-3 {
+    color: white;
+    font-family: "Source Sans Pro";
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.coworker-title {
+    text-align: center;
+    margin-right: 15%;
 }
