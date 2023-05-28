@@ -34,6 +34,28 @@
     text-align: left;
 };
 
+.container.testimonials {
+    background: url(../components/../css/./img/testimonials/bcg-img-big.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
 
+.testimonials-moving-img {
+    width: 30px;
+    height: 30px;
+    transform-origin: 200% center;
+    position: relative;
+    animation: rotate 3s linear infinite;
+}
 
+.testimonials-moving-img:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    animation:rotate 3s linear reverse infinite;
+}
 
+@keyframes rotate { 
+    100% { transform:rotate(-360deg); }
+ }
