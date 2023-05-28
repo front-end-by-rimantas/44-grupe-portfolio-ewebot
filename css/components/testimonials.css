@@ -41,11 +41,13 @@
 }
 
 .testimonials-moving-img {
-    width: 30px;
-    height: 30px;
-    transform-origin: 200% center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50% 50% 50% 50%;
+    display: inline-block;
+    transform-origin:  30% top;
     position: relative;
-    animation: rotate 3s linear infinite;
+    animation: rotate 5s linear infinite;
 }
 
 .testimonials-moving-img:before {
@@ -53,7 +55,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    animation:rotate 3s linear reverse infinite;
+    /* animation:rotate 3s linear reverse infinite; */
 }
 
 @keyframes rotate { 
