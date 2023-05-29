@@ -1,0 +1,66 @@
+
+.row .signup-heading {
+    color: var(--main-color-dark);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family:"Source Sans Pro", Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+
+.row .signup-paragraph {
+  color: #454D65;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 30px;
+}
+
+.signup {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+    font-size:16px;
+}
+
+.signup label {
+    display: none;
+}
+.signup input {
+    width: 100%;
+    border-radius: 5px 0px 0px 5px;
+    padding: 11px 20px;
+    font-family: inherit;
+    font-size: inherit;
+    color: #454D65;
+    border: none;
+    background-color: #10172D;
+}
+
+.signup ::placeholder {
+    color: #454D65;
+    font-style: italic;
+}
+
+ @media (max-width: 768px) {
+   .signup,
+   .btn-signup
+    {
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+      border-radius: 5px 5px;
+}   
+    .signup input {
+      border-radius: 5px 5px 5px 5px;
+      width: 100%;
+      margin-bottom: 20px;
+ }
+}
+

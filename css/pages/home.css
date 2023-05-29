@@ -5,5 +5,134 @@
 /* vendors */
 
 /* components */
+@import '../components/testimonials.css';
+@import '../components/brands.css';
+@import '../components/metrics.css';
+@import '../components/hero.css';
+@import '../pages/metrics.css';
+@import '../components/latest.css';
+@import '../components/contact.css';
+@import '../components/latest.css';
+@import '../components/creative.css';
+@import '../components/blog.css';
+@import '../components/button.css';
+@import '../components/scrollBtn.css';
+@import '../components/books.css';
+@import '../components/signup.css';
+@import '../components/footer.css';
 
 /* CUSTOM CSS */
+
+/* 3rd-party */
+@import '../3rd-party/font-awesome.min.css';
+
+/*  HEADER: start */
+.logo {
+    width: 150px;
+}
+
+.link {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: #ffff;
+    margin-left: 20px;
+    
+}
+.link:hover {
+    color: #cf2e2e;
+}
+
+body {
+    background-image: url('../../img/header/home12_bg.jpg');
+    background-repeat: no-repeat;
+}
+
+.header {
+    margin-left: 1rem;
+    line-height: 50px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    padding: 0 !important;
+    z-index: 10001;
+  
+}
+
+header.active {
+    background-color: #030C26E6;
+    opacity: 95%;
+   
+}
+
+.menu {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+/*  HERO: start */
+/*  CHOOSE US: start */
+
+
+.choose {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: start;
+    text-align: left;
+}
+
+.choose > .choose {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+   
+}
+
+.choose-box {
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 15px 15px 40px 0px #F4F6F7;
+}
+
+@media (min-width: 768px) {
+    .choose {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+.marker {
+    width: 20px;
+    }
+
+.row > .right-column {
+    margin-top: 120px;
+}
+
+/*  METRICS: start */
+/*  VIDEO: start */
+.latest-bg{
+    background-image: url('../../img/latest-video/home12_video_bg.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/*  SOCIALS: start */
+/*  TESTIMONIALS: start */
+/*  SHOP BOOKS: start */
+/*  BLOG: start */
+/*  CREATIVE: start */
+/*  FOOTER: start */
+
+footer {
+    background-color: #030c26;
+}

@@ -1,0 +1,31 @@
+.counter-title {
+    color: #030c26;
+    font-family: "Nunito";
+    font-size: 14px;
+    font-weight: 400;
+    
+    text-transform: uppercase;
+}
+
+.section-title-1 {
+    color: var(--main-color-dark);
+    font-family: "Source Sans Pro";
+    font-size: 43px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 43px;
+}
+.counter-nmb {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.nmbr {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Source Sans Pro", Sans-serif;
+    color: #EF234E;
+
+}
+.divnb {
+    margin-bottom: 20px;
+}

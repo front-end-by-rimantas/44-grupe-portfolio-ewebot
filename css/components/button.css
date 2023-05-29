@@ -1,0 +1,68 @@
+.homebutton {
+   
+    padding: 16px 15px;
+    border-radius: 30px;
+    border: solid 2px #dce2f7;
+    position: relative;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: #908daa;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.homebutton:hover {
+    color: white;
+    background-color: #030C26;
+    transition: all 0.7s;
+}
+
+/* for button in blue background */
+
+.homebutton2 {
+    padding: 16px 15px;
+    border-radius: 30px;
+    border: solid 2px rgb(105, 102, 135);
+    position: relative;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: white;
+    text-transform: uppercase;
+    align-items: center;
+    background-color: #030c26;
+}
+
+.homebutton2:hover {
+    background-color: #1a233e;
+    transition: all 0.7s;
+}
+
+.btn-signup {
+    width: 30%;
+    padding: 15px 15px 15px 15px;
+    border-radius: 0px 5px 5px 0px;
+    align-items: center;
+    background-color: #141D38;
+    border: 0px;
+    text-decoration: none;
+    color: #FFFFFF;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+.btn-signup:hover {
+    background-color: #696687;
+    transition: all 1.6s;
+}
+
+.btn-signup::after {
+    content: ' ->';
+    opacity: .5;
+
+}

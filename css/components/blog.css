@@ -1,0 +1,56 @@
+.blog-bg {
+    background-color: #f8f8f8;
+}
+
+.post-frame {
+    height: 280px;
+    background: #fff; 
+    box-shadow: 7px 7px 6px #d5d8db;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.post {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+}
+
+.post-frame-inner {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    transition: background-size .9s ease-in-out;
+}
+
+.post-frame:hover .post-frame-inner {
+    display: block;
+    background-size: 200%;
+}
+
+.blog {
+    text-align: center;
+}
+
+.blog-1 {
+    background-image: url(../../img/blog/blog-1.jpg);
+}
+  
+.blog-2 {
+    background-image: url(../../img/blog/blog-3.jpg);
+}
+
+.blog-3 {
+    background-image: url(../../img/blog/blog-2.jpg);
+}
+
+.bloglink {
+    color: red;
+    text-decoration: none;
+}
+
+.hmbttn {
+    align-items: center;
+}

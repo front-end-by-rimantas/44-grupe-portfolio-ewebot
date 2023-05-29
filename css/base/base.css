@@ -1,4 +1,9 @@
 :root {
+    --main-color-light: #FFFFFF;
+    --main-color-dark: #030C26;
+    --light-grey-color-in-white: #696687;
+    --light-grey-color-in-blue: #9FA5B7;
+    --secondary-color: #EF234E;
 }
 
 body,
@@ -11,4 +16,63 @@ body * {
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
         sans-serif;
+}
+
+/* for heading in white background */
+.section-heading-1 {
+    color: var(--light-grey-color-in-white);
+    font-size: 14px;
+    font-family: Nunito;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    text-align: left;
+};
+/* for heading in blue backgound */
+.section-heading-2 {
+    color: var(--light-grey-color-in-blue);
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Nunito;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    text-align: left;
+}
+/* for title in white background  */
+.section-title-1 {
+    color: var(--main-color-dark);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 43px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 43px;
+}
+/* for title in blue background */
+.section-title-2 {
+    color: var(--main-color-light);
+    font-family: "Source Sans Pro", sans-serif; 
+    font-size: 43px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 43px;
+}
+/* for paragraph in white background */
+.paragraph-1 {
+    color: var(--light-grey-color-in-white);
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+/* for paragraph in blue backgound */
+.paragraph-2 {
+    color: var(--light-grey-color-in-blue);
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 1.5em;
 }
