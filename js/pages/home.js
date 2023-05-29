@@ -28,23 +28,28 @@ const numberElements = document.querySelectorAll('.numberanime');
 
 const targetValues = [523, 26, 12, 314];
 
-const duration = 1000;
+const duration = 3000;
 
 function animateNumbers(element, target, duration) {
-    const start = 0;
-    const increment = Math.ceil(target / (duration / 5));
+    let current = 0;
+    const startTime = performance.now();
 
-    let current = start;
-    const timer = setInterval(() => {
-        current += increment;
+    const animate = () => {
+        const elapsed = performance.now() - startTime;
+        current = Math.min(target, Math.ceil((elapsed / duration) * target));
+
         element.textContent = current.toLocaleString();
 
-        if (current >= target) {
+        if (elapsed < duration) {
+            requestAnimationFrame(animate);
+        } else {
             element.textContent = target.toLocaleString();
-            clearInterval(timer);
         }
-    }, 10);
+    };
+
+    requestAnimationFrame(animate);
 }
+
 numberElements.forEach((element, index) => {
     const target = targetValues[index];
     animateNumbers(element, target, duration);
