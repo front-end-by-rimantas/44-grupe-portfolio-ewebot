@@ -24,6 +24,31 @@ scrollWindow();
 /* CHOOSE US: end */
 
 /* METRICS: start */
+const numberElements = document.querySelectorAll('.numberanime');
+
+const targetValues = [523, 26, 12, 314];
+
+const duration = 1000;
+
+function animateNumbers(element, target, duration) {
+    const start = 0;
+    const increment = Math.ceil(target / (duration / 5));
+
+    let current = start;
+    const timer = setInterval(() => {
+        current += increment;
+        element.textContent = current.toLocaleString();
+
+        if (current >= target) {
+            element.textContent = target.toLocaleString();
+            clearInterval(timer);
+        }
+    }, 10);
+}
+numberElements.forEach((element, index) => {
+    const target = targetValues[index];
+    animateNumbers(element, target, duration);
+});
 /* METRICS: end */
 
 /* VIDEO: start */
