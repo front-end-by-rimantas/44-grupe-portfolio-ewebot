@@ -1,6 +1,7 @@
 // IMPORTS
 import scrollFunction from '../components/scrollBtn-1.js';
 import scrollWindow from '../components/scrollBtn-2.js';
+import { handleHeroImagesPosition } from '../components/hero-images.js';
 
 // EXECUTION
 
@@ -18,6 +19,8 @@ window.addEventListener('scroll', function () {
 /* HERO: start */
 scrollFunction();
 scrollWindow();
+handleHeroImagesPosition();
+window.addEventListener('resize', handleHeroImagesPosition);
 /* HERO: end */
 
 /* CHOOSE US: start */
