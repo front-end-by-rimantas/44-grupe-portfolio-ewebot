@@ -2,18 +2,12 @@
 import scrollFunction from '../components/scrollBtn-1.js';
 import scrollWindow from '../components/scrollBtn-2.js';
 import { handleHeroImagesPosition } from '../components/hero-images.js';
+import headerScroll from '../components/header.js';
 
 // EXECUTION
 
 /* HEADER: start */
-window.addEventListener('scroll', function () {
-    if (window.pageYOffset) {
-        document.getElementById('header').classList.add('active');
-    } else {
-        document.getElementById('header').classList.remove('active');
-    }
-});
-
+headerScroll();
 /* HEADER: end */
 
 /* HERO: start */
