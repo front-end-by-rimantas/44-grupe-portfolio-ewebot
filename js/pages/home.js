@@ -5,6 +5,7 @@ import { handleHeroImagesPosition } from '../components/hero-images.js';
 import headerScroll from '../components/header.js';
 import animateNumbers from '../components/metrics.js';
 
+
 // EXECUTION
 
 /* HEADER: start */
