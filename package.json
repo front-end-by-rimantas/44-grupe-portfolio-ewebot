@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "dead-server --host=localhost --port=4407",
+        "dev": "dead-server --host=localhost --port=4408",
         "test": "jest --passWithNoTests",
         "test:all": "jest --watchAll --passWithNoTests --coverage",
         "test:coverage": "jest --coverage"

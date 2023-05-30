@@ -2,6 +2,7 @@
 import scrollFunction from '../components/scrollBtn-1.js';
 import scrollWindow from '../components/scrollBtn-2.js';
 import { handleHeroImagesPosition } from '../components/hero-images.js';
+import { handleTestimonialsImagesPosition } from '../components/testimonials.js';
 import headerScroll from '../components/header.js';
 import animateNumbers from '../components/metrics.js';
 
@@ -33,6 +34,8 @@ animateNumbers();
 /* SOCIALS: end */
 
 /*  TESTIMONIALS: start */
+handleTestimonialsImagesPosition();
+window.addEventListener('resize', handleTestimonialsImagesPosition);
 /*  TESTIMONIALS: end */
 
 /* SHOP BOOKS: start */
