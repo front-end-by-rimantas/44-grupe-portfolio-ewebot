@@ -1,20 +1,27 @@
 .blog-bg {
     background-color: #f8f8f8;
 }
+.blog-top-img {
+    position: relative;
+    top: -30px;
+}
 
 .post-frame {
     height: 280px;
-    background: #fff; 
-    box-shadow: 7px 7px 6px #d5d8db;
-    border-radius: 5px;
+    box-shadow: 15px 15px 40px 0px #d5d8db;
+    border-radius: 7px;
     overflow: hidden;
+    transform: scale(1);
+    position: relative;
 }
 
 .post {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    padding: 1em;
+    text-align: left;
+}
+
+.post a {
+    font-size: 24px;
+    color: black;
 }
 
 .post-frame-inner {
@@ -22,28 +29,53 @@
     background-position: center;
     height: 100%;
     width: 100%;
-    transition: background-size .9s ease-in-out;
-}
-
-.post-frame:hover .post-frame-inner {
-    display: block;
-    background-size: 200%;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 30px;
+    background: #fff;
+    color: black;
 }
 
 .blog {
     text-align: center;
 }
-
 .blog-1 {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.5s;
+}
+
+.blog-1:hover {
     background-image: url(../../img/blog/blog-1.jpg);
+    transform: scale(1.2);
+    color: #fff;
+}
+
+.blog-2 {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.5s;
 }
   
-.blog-2 {
+.blog-2:hover {
     background-image: url(../../img/blog/blog-3.jpg);
+    transform: scale(1.2);
+    color: #fff;
 }
 
 .blog-3 {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.5s;
+}
+
+.blog-3:hover {
     background-image: url(../../img/blog/blog-2.jpg);
+    transform: scale(1.2);
+    color: #fff;
 }
 
 .bloglink {
@@ -53,4 +85,33 @@
 
 .hmbttn {
     align-items: center;
+}
+
+.blog-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 90px 0 0;
+    align-items: center;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.blog-icons a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.blog-icons {
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    transition: width 0.5s;
+    width: 17px;
+    gap: 10px;
+    padding: 1px;
+}
+
+.blog-icons:hover {
+    width: 200px;
 }

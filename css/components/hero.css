@@ -6,6 +6,12 @@
     color:#FFFFFF;
 
 }
+
+.typing-container {
+  height: 74px; 
+  display: flex;
+  flex-wrap: wrap; 
+}
 .paragraph-2.hero {
     font-size: 18px;
 }
