@@ -1,6 +1,10 @@
 .blog-bg {
     background-color: #f8f8f8;
 }
+.blog-top-img {
+    position: relative;
+    top: -30px;
+}
 
 .post-frame {
     height: 280px;
