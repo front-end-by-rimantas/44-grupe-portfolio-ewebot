@@ -29,11 +29,7 @@
     padding-left: 40px;
     padding-right: 30px;
     background: #fff;
-}
-
-.blog-1:hover .blog-1 {
-    display: block;
-    background-size: 200%;
+    color: black;
 }
 
 .blog {
@@ -49,15 +45,33 @@
 .blog-1:hover {
     background-image: url(../../img/blog/blog-1.jpg);
     transform: scale(1.2);
-    
+    color: #fff;
+}
+
+.blog-2 {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.5s;
 }
   
-.blog-2 {
+.blog-2:hover {
     background-image: url(../../img/blog/blog-3.jpg);
+    transform: scale(1.2);
+    color: #fff;
 }
 
 .blog-3 {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.5s;
+}
+
+.blog-3:hover {
     background-image: url(../../img/blog/blog-2.jpg);
+    transform: scale(1.2);
+    color: #fff;
 }
 
 .bloglink {
@@ -97,4 +111,3 @@
 .blog-icons:hover {
     width: 200px;
 }
-
