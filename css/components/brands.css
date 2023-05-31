@@ -1,3 +1,7 @@
+.brands-section {
+    padding-top: 80px;
+}
+
 .brands {
     display: grid;
     grid-template-columns: 50% 50%;
