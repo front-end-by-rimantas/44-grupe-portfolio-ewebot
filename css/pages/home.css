@@ -120,11 +120,11 @@ header.active {
 
 /*  METRICS: start */
 /*  VIDEO: start */
-.latest-bg{
+.latest-bg {
     background-image: url('../../img/latest-video/home12_video_bg.jpg');
     background-position: top center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 /*  SOCIALS: start */
 /*  TESTIMONIALS: start */
