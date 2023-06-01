@@ -2,18 +2,15 @@
 import scrollFunction from '../components/scrollBtn-1.js';
 import scrollWindow from '../components/scrollBtn-2.js';
 import { handleHeroImagesPosition } from '../components/hero-images.js';
+import { handleTestimonialsImagesPosition } from '../components/testimonials.js';
+import headerScroll from '../components/header.js';
+import animateNumbers from '../components/metrics.js';
+
 
 // EXECUTION
 
 /* HEADER: start */
-window.addEventListener('scroll', function () {
-    if (window.pageYOffset) {
-        document.getElementById('header').classList.add('active');
-    } else {
-        document.getElementById('header').classList.remove('active');
-    }
-});
-
+headerScroll();
 /* HEADER: end */
 
 /* HERO: start */
@@ -27,6 +24,7 @@ window.addEventListener('resize', handleHeroImagesPosition);
 /* CHOOSE US: end */
 
 /* METRICS: start */
+animateNumbers();
 /* METRICS: end */
 
 /* VIDEO: start */
@@ -36,6 +34,8 @@ window.addEventListener('resize', handleHeroImagesPosition);
 /* SOCIALS: end */
 
 /*  TESTIMONIALS: start */
+handleTestimonialsImagesPosition();
+window.addEventListener('resize', handleTestimonialsImagesPosition);
 /*  TESTIMONIALS: end */
 
 /* SHOP BOOKS: start */
