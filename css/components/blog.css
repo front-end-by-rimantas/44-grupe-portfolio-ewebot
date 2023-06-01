@@ -115,3 +115,8 @@
 .blog-icons:hover {
     width: 200px;
 }
+
+.blog-button {
+    text-align: center;
+    padding-bottom: 50px;
+}
