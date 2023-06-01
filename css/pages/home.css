@@ -20,7 +20,7 @@
 @import '../components/books.css';
 @import '../components/signup.css';
 @import '../components/footer.css';
-
+@import '../components/checks.css';
 /* CUSTOM CSS */
 
 /* 3rd-party */
@@ -35,7 +35,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: #ffff;
-    margin-left: 20px;
+    margin-left: 18px;
     
 }
 .link:hover {
