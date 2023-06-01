@@ -40,12 +40,17 @@
     font-size: inherit;
     color: #454D65;
     border: none;
+    border-style: none;
     background-color: #10172D;
 }
 
 .signup ::placeholder {
     color: #454D65;
     font-style: italic;
+}
+
+.signup input:focus {
+  outline: none;
 }
 
  @media (max-width: 768px) {
