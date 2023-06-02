@@ -22,6 +22,7 @@
 @import '../components/footer.css';
 @import '../components/checks.css';
 @import '../components/submenu.css';
+@import '../components/header.css';
 /* CUSTOM CSS */
 
 /* 3rd-party */
@@ -69,11 +70,6 @@ header.active {
    
 }
 
-.menu {
-    text-align: center;
-    display: inline-block;
-    vertical-align: top;
-}
 /*  HERO: start */
 /*  CHOOSE US: start */
 
@@ -91,6 +87,13 @@ header.active {
     grid-template-columns: 1fr;
     gap: 5px;
    
+}
+.backtest1 {
+    
+       position: absolute;
+        right: 0px;
+        margin-top: -120px;
+        
 }
 
 .choose-box {
