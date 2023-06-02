@@ -91,6 +91,13 @@ header.active {
     gap: 5px;
    
 }
+.backtest1 {
+    
+       position: absolute;
+        right: 0px;
+        margin-top: -120px;
+        
+}
 
 .choose-box {
     background-color: #ffff;
