@@ -83,20 +83,12 @@ header.active {
     text-align: left;
 }
 
-.choose > .choose {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 5px;
-   
-}
 .backtest1 {
     
        position: absolute;
         right: 0px;
-        margin-top: -120px;
-        
+        margin-top: -120px;  
 }
-
 
 .choose-box {
     background-color: #ffff;
@@ -109,15 +101,15 @@ header.active {
     margin: 0px 0px 30px 0px;
 }
 
-
 .choose-box a {
     font-size: 24px;
     color: black;
 }
 
-.choose-row {
+.choose-m-row {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 
 .choose-column {
@@ -128,9 +120,6 @@ header.active {
 
 .choose-us-button {
     margin: 60px 0px;
-
-.choose-us-button {
-    margin: 50px 0px;
 }
 
 @media (min-width: 768px) {
@@ -139,7 +128,6 @@ header.active {
         gap: 30px;
     }
 }
-
 
 @media (min-width: 1200px) {
     .choose-us-button {
@@ -164,28 +152,15 @@ header.active {
 }
 
 @media (min-width: 768px) {
-    .choose {
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-    }
-}
-@media (min-width: 768px) {
-    .choose-box {
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-    }
-}
-@media (min-width: 768px ) {
     .choose-column {
         grid-template-columns: 1fr 1fr;
     }
 }
-@media (min-width: 768px ) {
+@media (min-width: 768px) {
     .choose-m-row {
         display: flex;
     }
 }
-
 
 /*  METRICS: start */
 /*  VIDEO: start */
