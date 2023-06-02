@@ -6,3 +6,11 @@
     vertical-align: middle;
   }
 
+
+  .menu .with-symbol:after {
+    content: ">";
+    display: inline-block;
+    transform: rotate(90deg) scale(0.8); 
+    margin-left: 5px;
+    vertical-align: middle;
+  }
