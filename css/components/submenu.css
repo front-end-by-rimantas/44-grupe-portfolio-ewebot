@@ -35,15 +35,6 @@
     display: block;
 }
 
-.pages {
-    text-decoration: none;
-    color: #3b3663;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
-    text-transform: capitalize;
-    
-}
-
 
 /* BLOG STYLING*/
 
@@ -73,13 +64,6 @@
     display: block;
 }
 
-.pages {
-    text-decoration: none;
-    color: #3b3663;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
-    text-transform: capitalize;
-}
 
 /* SHOP STYLING*/
 
@@ -111,9 +95,13 @@
 
 .pages {
     text-decoration: none;
-    color: #3b3663;
+    color: var(--light-grey-color-in-white);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     text-transform: capitalize;
+}
+
+.pages:hover {
+    color: #cf2e2e;
 }
 
