@@ -28,6 +28,13 @@ window.addEventListener('scroll', function () {
 /*  TESTIMONIALS: end */
 
 /* SHOP BOOKS: start */
+function hover(img)
+{
+ img.src = "./img/books/books_menu.png"
+}
+function hoverOut(img){
+    img.src = "./img/books/books_heart.png"
+}
 /* SHOP BOOKS: end */
 
 /* BLOG: start */
