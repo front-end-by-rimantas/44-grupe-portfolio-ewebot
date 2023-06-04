@@ -29,47 +29,6 @@
 @import '../3rd-party/font-awesome.min.css';
 
 /*  HEADER: start */
-.logo {
-    width: 150px;
-}
-
-.link {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: none;
-    color: #ffff;
-    margin-left: 17px;
-    
-}
-.link:hover {
-    color: #cf2e2e;
-}
-
-body {
-    background-image: url('../../img/header/home12_bg.jpg');
-    background-repeat: no-repeat;
-}
-
-.header {
-    margin-left: 1rem;
-    line-height: 50px;
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-}
-
-header {
-    position: fixed;
-    top: 0;
-    padding: 0 !important;
-    z-index: 10001;
-  
-}
-
-header.active {
-    background-color: #030C26E6;
-    opacity: 95%;
-   
-}
-
 /*  HERO: start */
 /*  CHOOSE US: start */
 
