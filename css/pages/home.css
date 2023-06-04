@@ -17,8 +17,13 @@
 @import '../components/blog.css';
 @import '../components/button.css';
 @import '../components/books.css';
+@import '../components/signup.css';
+@import '../components/footer.css';
 
 /* CUSTOM CSS */
+
+/* 3rd-party */
+@import '../3rd-party/font-awesome.min.css';
 
 /*  HEADER: start */
 .logo {
@@ -69,12 +74,51 @@ header.active {
 }
 /*  HERO: start */
 /*  CHOOSE US: start */
+
+
+.choose {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 30px;
+    align-items: start;
+}
+
+.choose > .choose {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+   
+}
+
+.choose-box {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .choose {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+.choose-img {
+    position: relative;
+    
+   }
+
+
 /*  METRICS: start */
 /*  VIDEO: start */
 .latest-bg{
     background-image: url('../../img/latest-video/home12_video_bg.jpg');
     background-position: top center;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 /*  SOCIALS: start */
 /*  TESTIMONIALS: start */
@@ -82,3 +126,7 @@ header.active {
 /*  BLOG: start */
 /*  CREATIVE: start */
 /*  FOOTER: start */
+
+footer {
+    background-color: #030c26;
+}
