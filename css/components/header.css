@@ -41,7 +41,7 @@ header.active {
 .link {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
-    color: var(--light-grey-color-in-white);
+    color: #FFFFFF;
     margin-left: 20px;
     
 }
@@ -67,7 +67,6 @@ header.active {
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    
 }
 
 @media screen and (max-width: 1200px) {
