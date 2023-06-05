@@ -1,3 +1,7 @@
+.container.brands-metrics {
+    position: relative;
+}
+
 .brands-section {
     padding-top: 80px;
 }
@@ -6,8 +10,6 @@
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 30px;
-    
-  
 
 }
 
@@ -35,3 +37,29 @@
         display: grid;
     }
 }
+
+.cube-brands {
+    position: absolute;
+    z-index: 1;
+    left: 12%;
+    top: -30%;
+    animation: move10 7s infinite;
+    animation-timing-function:linear;
+}
+
+@keyframes move10 { 
+    0% { transform:translate(0px, 0px)rotate(30deg); }
+    25% { transform:translate(-7px, -7px)rotate(10deg) }
+    55% { transform:translate(-10px, 4px) }
+    75% { transform:translate(-6px, 7px)rotate(20deg) }
+    85% { transform:translate(-3px, 4px) }
+    100% { transform:translate(0px, 0px)rotate(30deg) }
+ }
+
+ @media(max-width: 992px) {
+    .cube-brands{ 
+        width: 120px;
+        height: 100px;
+        top: 0;
+    }
+ }

@@ -80,13 +80,16 @@ header.active {
       padding: 10px;
     }
 
-
     .menu.show {
         display: flex;
         flex-direction: column;
         justify-content:left;
         text-align: left;
-        color: grey;
+        
+    }
+
+    .menu.show .link {
+        color: var( --light-grey-color-in-white);
     }
 
     .menu.show:hover {
