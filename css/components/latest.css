@@ -19,6 +19,7 @@
     margin-top: -85px;
     margin-bottom: 54px;
     padding: 170px 0 120px 0;
+    z-index: 1;
 }
 
 .latest .latest-popup {
@@ -49,9 +50,28 @@
     color: white;
 }
 
-.latest-video .latest-popup-father {
-    position: relative;
-    display: inline-block;
+.latest .latest-floating {
+    position: absolute;
+    top: -160px;
+    left: -140px;
+    animation: move 3s infinite;
+    animation-timing-function:linear;
+}
+
+.latest .latest-floating-img {
+    width: 332px;
+    max-width: 70%;
+} 
+
+.latest-dots {
+    position: absolute;
+    top: 90px;
+    right: -120px;
+}
+
+.latest .latest-dots-img {
+    width: 332px;
+    max-width: 70%;
 }
 
 .latest-text .latest-title {
@@ -65,17 +85,86 @@
     margin-bottom: 40px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     .latest .latest-video {
-        padding: 200px 60px 130px 60px;
+        padding: 100px 60px 130px 60px;
+        margin-top: -90px;
+    }
+
+    .latest .latest-floating {
+        max-width: 70%;
+        top: -160px;
+        left: -120px;
+    }
+
+    .latest .latest-dots-img {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .latest-container {
+        margin-top: 120px;
+    }
+    .latest .latest-video {
+        padding: 180px 60px 120px 60px;
+        margin-top: -140px;
+    }
+
+    .latest .latest-floating {
+        top: -220px;
+        left: -90px;
+        width: 55%;
+    }
+
+    .latest .latest-dots {
+        top: 30px;
+        right: -120px;
+        width: 55%;
+
+    }
+}
+
+@media (min-width: 992px) {
+    .latest .latest-video {
+        padding: 180px 0px 130px 0px;
+        margin-top: -140px;
+    }
+
+    .latest .latest-floating {
+        top: -210px;
+        left: 20px;
+        width: 40%;
+    }
+
+    .latest .latest-dots {
+        top: 40px;
+        right: 10px;
+        width: 40%;
     }
 }
 
 @media (min-width: 1200px) {
+    .latest-container {
+        margin-top: 40px;
+    }
+
     .latest .latest-video {
-        padding: 200px 60px 250px 60px;
+        margin-top: -120px;
+        padding: 200px 0px 250px 0px;
+    }
+
+    .latest .latest-dots {
+        top: 140px;
+        right: 10px;
+    }
+
+    .latest .latest-floating-img {
+        width: 100%;
+    }
+
+    .latest .latest-dots-img {
+        width: 100%;
     }
 }
-
-
-

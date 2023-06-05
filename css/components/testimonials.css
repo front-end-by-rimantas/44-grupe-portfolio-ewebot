@@ -109,6 +109,11 @@
     animation: move6 3s infinite;
     animation-timing-function:linear;
 }
+.backtest {
+    position: absolute;
+    right: 0px;
+    
+}
 
 
 @keyframes move { 
@@ -158,4 +163,30 @@
     75% { transform:translate(7px, 5px); }
     85% { transform:translate(9px, 2px); }
     100% { transform:translate(10px, -10px); }
+ }
+
+ .cube-testimonials {
+    position: absolute;
+    overflow: hidden;
+    right: 110px; 
+    z-index: -1;
+    animation: move7 4s infinite;
+    animation-timing-function:linear;
+ }
+
+ @keyframes move7 { 
+    0% { transform:translate(0px, 0px)rotate(10deg); }
+    25% { transform:translate(-7px, -7px)rotate(10deg) }
+    55% { transform:translate(-10px, 4px) }
+    75% { transform:translate(-6px, 7px)rotate(10deg) }
+    85% { transform:translate(-3px, 4px) }
+    100% { transform:translate(0px, 0px)rotate(10deg) }
+ }
+
+
+ @media(max-width: 576px) {
+    .cube-testimonials{ 
+        width: 80px;
+        height: 80px;
+    }
  }

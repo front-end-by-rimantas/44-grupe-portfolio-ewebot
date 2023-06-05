@@ -1,0 +1,26 @@
+.menu .link:not(.no-arrow)::after {
+    content: ">";
+    display: inline-block;
+    transform: rotate(90deg) scale(0.8); 
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+
+  .menu .submenu .pages.with-symbol::after {
+    content: ">";
+    margin-right: 5px;
+    display: inline-block;
+    transform: rotate(90deg) scale(0.8); 
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+
+
+  .menu .submenu2 .pages.with-symbol::after {
+    content: ">";
+    margin-right: 5px;
+    display: inline-block;
+    transform: rotate(90deg) scale(0.8); 
+    margin-left: 5px;
+    vertical-align: middle;
+  }

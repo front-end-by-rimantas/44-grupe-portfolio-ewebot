@@ -1,0 +1,135 @@
+body {
+    background-image: url('../../img/header/home12_bg.jpg');
+    background-repeat: no-repeat;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    padding: 0 !important;
+    z-index: 10001;
+  
+}
+
+.header {
+    margin-left: 1rem;
+    line-height: 50px;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .header-menu-container {
+        width: 100%;    
+    }
+}
+
+header.active {
+    background-color: #030C26E6;
+    opacity: 95%;
+   
+}
+
+.logo {
+    width: 150px;
+    height:fit-content;
+}
+
+.link {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 20px;
+    
+}
+.link:hover {
+    color: #cf2e2e;
+}
+.link.first {
+    color: #cf2e2e;
+}
+
+.header-menu-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-toggle {
+    display: none;
+}
+  
+.menu {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 1200px) {
+    .menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #FFFFFF;
+      padding: 10px;
+    }
+
+    .menu.show {
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+        text-align: left;
+        
+    }
+
+    .menu.show .link {
+        color: var( --light-grey-color-in-white);
+    }
+
+    .menu.show:hover {
+        color: var(--secondary-color);
+    }
+
+    .row.header {
+        position: relative;
+    }
+  
+    .navbar-toggle {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+        top: 29px;
+        left: 200px;
+        margin-left: 20px;
+    }
+      
+    .bar1, .bar2, .bar3 {
+        width: 28px;
+        height: 2px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+      
+      /* Rotate first bar */
+    .change .bar1 {
+        transform: translate(0, 8px) rotate(-45deg);
+    }
+      
+      /* Fade out the second bar */
+    .change .bar2 {opacity: 0;}
+      
+      /* Rotate last bar */
+      .change .bar3 {
+        transform: translate(0, -8px) rotate(45deg);
+    }
+      
+}
+

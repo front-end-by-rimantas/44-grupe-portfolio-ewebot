@@ -1,3 +1,7 @@
+.social-metrics {
+    position: relative;  
+}
+
 .metrics {
     padding-bottom: 110px;
 }
@@ -36,4 +40,40 @@
 .numb {
     display: flex;
     flex-direction: row;
+}
+.backtest2 {
+    
+    position: absolute;
+     left:  0px;
+     
+     
+}
+
+.cube-metrics {
+position: absolute;
+left: 7%;
+top: -8%;
+z-index: 100;
+animation: move9 7s infinite;
+animation-timing-function:linear;
+transform-origin: 0%;
+
+}
+
+@keyframes move9 { 
+    0% { transform:translate(0px, 0px) rotate(10deg) }
+    25% { transform:translate(-7px, -7px) rotate(20deg) }
+    55% { transform:translate(-10px, 4px) rotate(30deg) }
+    75% { transform:translate(-6px, 7px) rotate(20deg) }
+    85% { transform:translate(-3px, 4px) rotate(10deg) }
+    100% { transform:translate(0px, 0px)rotate(0deg) }
+ }
+
+ @media(max-width: 1030px) {
+    .cube-metrics{ 
+        width: 80px;
+        height: 80px;
+   
+    }
+
 }

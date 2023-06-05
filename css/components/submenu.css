@@ -1,0 +1,107 @@
+/* PAGES STYLING*/
+
+.menu {
+    position: relative;
+}
+
+.menu .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    margin-left: 95px;
+    border-radius: 5px;
+    padding: 9px;
+    background-color: #fff;
+    transition-delay: 5s;
+}
+  
+.menu .link:hover + .submenu,
+.menu .submenu:hover {
+    display: block;
+}
+
+
+.menu .submenu li {
+    margin: 0;
+    line-height: 1.5; 
+}
+
+.menu .submenu li.with-symbol::after {
+    content: ">";
+    margin-right: 5px;
+}
+  
+.menu .submenu:hover {
+    display: block;
+}
+
+
+/* BLOG STYLING*/
+
+
+.menu .submenu2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    margin-left: 288px;
+    border-radius: 5px;
+    padding: 9px;
+    background-color: #fff;
+}
+  
+.menu .link:hover + .submenu2,
+.menu .submenu2:hover {
+    display: block;
+}
+  
+
+.menu .submenu2 li {
+    margin: 0;
+    line-height: 1.5; 
+ }
+  
+.menu .submenu2:hover {
+    display: block;
+}
+
+
+/* SHOP STYLING*/
+
+.menu .submenu3 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    margin-left: 350px;
+    border-radius: 5px;
+    padding: 9px;
+    background-color: #fff;
+}
+  
+.menu .link:hover + .submenu3,
+.menu .submenu3:hover {
+    display: block;
+}
+  
+
+
+.menu .submenu3 li {
+    margin: 0;
+    line-height: 1.5; 
+}
+  
+.menu .submenu3:hover {
+    display: block;
+}
+
+.pages {
+    text-decoration: none;
+    color: var(--light-grey-color-in-white);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.pages:hover {
+    color: #cf2e2e;
+}
+

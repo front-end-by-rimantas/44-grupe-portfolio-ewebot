@@ -23,27 +23,58 @@
     <!-- HEADER: start-->
     <header class="container" id="header">
         <div class="row header">
-            <div class="col-2">
-                <img src="./img/header/logo-red.png" alt="logo" class="logo">
-            </div>
-            <div class="col-5">
+            <div class="header-menu-container">
+            <img src="./img/header/logo-red.png" alt="logo" class="logo">
+            <div>
                 <nav class="menu">
-                    <a class="link" href="#">Home</a>
+                    <a class="link first" href="#">Home</a>
                     <a class="link" href="#">Pages</a>
+                    <ul class="submenu">
+                        <li><a class="pages" href="#">About us</a></li>
+                        <li><a class="pages with-symbol" href="#">Services</a></li>
+                        <li><a class="pages with-symbol" href="#">Our case studies</a></li>
+                        <li><a class="pages with-symbol" href="#">Our team</a></li>
+                        <li><a class="pages with-symbol" href="#">FAQ</a></li>
+                        <li><a class="pages" href="#">Pricing plans</a></li>
+                        <li><a class="pages" href="#">Photo gallery</a></li>
+                        <li><a class="pages" href="#">Coming soon</a></li>
+                        <li><a class="pages" href="#">Typography</a></li>
+                        <li><a class="pages" href="#">404</a></li>
+                      </ul>                     
                     <a class="link" href="#">Mega Menu</a>
                     <a class="link" href="#">Blog</a>
+                    <ul class="submenu2">
+                        <li><a class="pages" href="#">All news</a></li>
+                        <li><a class="pages with-symbol" href="#">Blog packery</a></li>
+                        <li><a class="pages" href="#">Single news</a></li>
+                      </ul>
                     <a class="link" href="#">Shop</a>
-                    <a class="link" href="#">Contacts</a>
+                    <ul class="submenu3">
+                        <li><a class="pages" href="#">All woo products</a></li>
+                        <li><a class="pages" href="#">Single product page</a></li>
+                        <li><a class="pages" href="#">Shopping cart</a></li>
+                        <li><a class="pages" href="#">Shop landing page</a></li>
+                      </ul>
+                    <a class="link no-arrow" href="#">Contacts</a>
                 </nav>
             </div>
-            <div class="col-5">
-                <div class="contact-container">
-                    <div class="contact">
-                        Call Us: <a class="contactnumber" href="#">800 2563 123</a>
+            <div class="navbar-toggle">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+            <div class="contact-container">
+                <div class="contact">
+                    <div id="header-c-number">
+                        <text>Call us:</text>
+                        <a class="contactnumber" href="tel:800-2563-123">800 2563 123</a>
                     </div>
-                    <a class="contact-button" href="#">Contact today</a>
+                    <button class="contact-button" href="#">Contact today</button>
                 </div>
             </div>
+            
+            
         </div>
     </header>
     <!-- HEADER: end-->
@@ -52,6 +83,7 @@
 
     <!-- HERO: start-->
     <section class="container hero no-overflow">
+        
         <div class="row section-hero">
             <div class="hero-column col-12 col-md-5 col-xl-5">
                 <h1 class="hero-h1">Influencer Marketing for</h1>
@@ -88,7 +120,8 @@
     <!-- HERO: end-->
 
     <!-- CHOOSE-US: start-->
-    <section class="container">
+    <section class="container choose-us">
+        <img id="testback" class="backtest1" src="./img/choose/home12_figure1.png" alt="grey-background">
         <div class="row">
             <div class="col-12 col-md-12 col-xl-6 choose"> 
                 <div class="choose-box">
@@ -96,7 +129,9 @@
                     trigger="loop" delay="2000" colors="primary:#121331,secondary:#08a88a" 
                     style="width:96px;height:96px">
                     </lord-icon>
-                    <h3 class="section-heading-1">Visit my blog</h3>
+                    <h3>
+                        <a style="text-decoration: none;" href="#">Visit my blog</a>   
+                    </h3>
                     <p class="paragraph-1">We use creative ideas for your future success.</p>
                 </div>
                 <div class="choose-box">
@@ -104,7 +139,9 @@
                     trigger="loop" delay="2500" colors="primary:#121331,secondary:#08a88a" 
                     style="width:96px;height:96px">
                     </lord-icon>
-                    <h3 class="section-heading-1">My podcasts</h3>
+                    <h3>
+                        <a style="text-decoration: none;" href="#">My podcasts</a>   
+                    </h3>
                     <p class="paragraph-1">We use creative ideas for your future success.</p>
                 </div>
                 <div class="choose-box">
@@ -112,7 +149,9 @@
                     trigger="loop" delay="3000" colors="primary:#121331,secondary:#08a88a" 
                     style="width:96px;height:96px">
                     </lord-icon>
-                    <h3 class="section-heading-1">View my videos</h3>
+                    <h3>
+                        <a style="text-decoration: none;" href="#">View my videos</a>   
+                    </h3>
                     <p class="paragraph-1">We use creative ideas for your future success.</p>
                 </div>
                 <div class="choose-box">
@@ -120,7 +159,9 @@
                     trigger="loop" delay="3500" colors="primary:#121331,secondary:#08a88a" 
                     style="width:96px;height:96px">
                     </lord-icon>
-                    <h3 class="section-heading-1">Social media</h3>
+                    <h3>
+                        <a style="text-decoration: none;" href="#">Social media</a>   
+                    </h3>
                     <p class="paragraph-1">We use creative ideas for your future success.</p>
                 </div>
             </div>
@@ -128,34 +169,36 @@
                 <h2 class="section-heading-1">Why choose us</h2>
                 <p class="section-title-1">Change the way you see social</p>
                 <p class="paragraph-1">We are passionate about our work. Our designers stay ahead of the curve to provide engaging and user-friendly website designs to make your business stand out. Our developers are committed to maintaining the highest web standards so that your site will withstand the test of time.</p> 
-                <div class="col-12 col-md-12 col-lg-6 choose">
-                    <div class="choose">
+                <div class="col-12 col-md-12 col-lg-6 choose-column">
+                    <div class="choose-m-row">
                         <img class="marker" src="./img/choose/choose us marker.png" alt="Marker">
                         <h3>Understand your audience</h3>
                     </div>
-                    <div class="choose">
-                        <img class="marker" src="./img/choose/choose us marker.png" alt="Marker">
-                        <h3>Reach your audience</h3>
-                    </div>
-                    <div class="choose">
+                    <div class="choose-m-row">
                         <img class="marker" src="./img/choose/choose us marker.png" alt="Marker">
                         <h3>Engage your community</h3>
                     </div>
-                    <div class="choose">
+                    <div class="choose-m-row">
+                        <img class="marker" src="./img/choose/choose us marker.png" alt="Marker">
+                        <h3>Reach your audience</h3>
+                    </div>
+                    <div class="choose-m-row">
                         <img class="marker" src="./img/choose/choose us marker.png" alt="Marker">
                         <h3>Social media analytics</h3>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row choose-us-button">
                     <a href="#" class="homebutton">Discover more</a>
                 </div>
             </div>
-        </div>                    
+        </div> 
+        <img class="cube-choose-us" src="./img/choose/choose-us-cube.png" alt="cube-img">                   
     </section>
     <!-- CHOOSE-US: end-->
 
     <!-- METRICS: start-->
-    <section class="container">
+    <section class="container social-metrics">
+        <!-- <img id="testback" class="backtest2" src="./img/Metrics-img/home12_figure2.png" alt="grey-background"> -->
         <div class="row metrics">
             <div class="col-12 col-md-5">
                 <h2 class="section-heading-1">Social metrics</h2>
@@ -192,21 +235,27 @@
               </div>
             </div>
         </div>
-            <img class="col-12 col-md-7" src="./img/Metrics-img/Metrics-img.png" alt="Metrics">
-
-</div>
+        <img class="col-12 col-md-7" src="./img/Metrics-img/Metrics-img.png" alt="Metrics">
+    </div>
+    <img class="cube-metrics" src="./img/metrics-img/cube-metrics.png" alt="cube-img">
     </section>
     <!-- METRICS: end-->
 
     <!-- LATEST: start-->
     
-    <section class="container latest-bg">
+    <section class="container latest-bg latest-container">
         <div class="row latest">
-            <div class="col-12 col-lg-8 ml-lg-2 latest-video">
+            <div class="col-12 col-md-10 ml-md-1 col-lg-8 ml-lg-2 latest-video">
                 <a class="latest-popup" href="https://www.youtube.com/watch?v=Ks-UlcYDXsA">
                     <span class="social-link fa fa-sharp fa-light fa-play"></span>
                 </a>
             </div>
+            <div class="latest-floating">
+                <img class="latest-floating-img" src="./img/latest/home12_figure4.png" alt="Green floating img">
+            </div>
+            <!-- <div class="latest-dots">
+                <img class="latest-dots-img" src="./img/latest/home12_video_points.png" alt="Grey dots img">
+            </div> -->
             <div class="col-10 ml-1 col-sm-10 ml-sm-1 col-md-8 ml-md-2 col-lg-6 ml-lg-3 latest-text">
                 <h2 class="section-heading-1 latest-title">Latest video</h2>
                 <h3 class="section-title-2 latest-title-2">Check my latest video</h3>
@@ -216,23 +265,10 @@
         </div>
     </section>
     
-    <!-- <section class="container latest-bg">
-        <div class="row latest">
-            <img class="col-12 col-lg-8 ml-lg-2 latest-img" src="./img/latest/latest.jpeg" alt="Latest video">
-            <div class="col-12 latest-text">
-                <h2 class="section-heading-1 latest-title">Latest video</h2>
-                <h3 class="section-title-2 latest-title-2">Check my latest video</h3>
-            </div>
-            <div class="col-8 ml-2 col-sm-10 ml-sm-1 col-md-8 ml-md-2 col-lg-6 ml-lg-3 ">
-                <p class="paragraph-2 latest-paragraph">We are passionate about our work. Our designers stay ahead of the curve to provide engaging and user-friendly website designs to make your business stand out.</p>
-                <a class="homebutton2 latest-button" href="#">Contact today</a>
-            </div>
-        </div>
-    </section>
-    LATEST: end-->
+    <!--LATEST: end-->
 
     <!-- SOCIALS: start-->
-    <section class="container">
+    <section class="container brands-metrics">
         <div class="row brands-section">
             <div class="col-12 col-md-6">
                 <h3 class="section-heading-1">Social metrics</h3>
@@ -248,12 +284,14 @@
                 <img class='branimg' src="./img/brands/sylex.png" alt="style logo">
             </div> 
         </div>
-        </section>
+        <img class="cube-brands" src="./img/brands/cube-brands.png" alt="cube-img">
+     </section>
     <!-- SOCIALS: end-->
 
     <!-- TESTIMONIALS: start-->        
 
-        <section class="container ">
+        <section class="container"> 
+            <img id="testback" class="backtest" src="./img/testimonials/bcg-img-big.png" alt="grey-background">
             <div class="row testimonials">
                 <div class="col-12 col-sm-12 col-md-6 ">
                     <div id="tiw" class="testimonial-image-wrapper">
@@ -275,7 +313,7 @@
                     <h6 class="testimonials-sub-name">Customer</h6>
                 </div>
             </div> 
-             
+                <img  class="cube-testimonials" src="./img/testimonials/cube-testimonials.png" alt="cube-img">
         </section>
     <!-- TESTIMONIALS: end-->
 
@@ -288,42 +326,60 @@
             <div class="col-12 col-sm-12 col-md-12 booksMargin">              
                 <h3 class="section-title-1 booksCenter">Read my books</h3>
             </div>
-            <div class="booksPar booksCenter">              
+            <div class="col-12 col-md-8 ml-md-2 col-xl-6 ml-xl-3 booksCenter">              
                 <p class="paragraph-1 booksMargin"> Live events, one-on-one coaching program, training systems and group workshops will help close the gap between where you are and where you want to be.</p>
             </div>
         </div>
         <div class="row">           
             <div class="col-12 col-sm-6 col-md-3 booksMarginTop">
-                <div class="booksCenter">
-                    <img class="cover" src="/img/books/start_doing.jpg">
+                <div class="booksCenter booksRelative">
+                    <img class="cover booksRelative" src="./img/books/start_doing.jpg">
+                    <img id='menuImg' src="./img/books/books_heart.png" onmouseover="hover(this);" onmouseout="hoverOut(this)" class="booksMenu booksAbsolute">
                 </div>
                 <div>
-                    <h4 href="#" class="booksCenter">Start doing 4th edition</h4>
+                    <h3 href="#" class="booksCenter">Start doing 4th edition</h3>
                 </div>
+                <span class="booksCenter ">
+                    <p class="booksFloat"><del>$49.00</del></p>
+                    <h3 class="booksFloat booksPrice">$39.00</h3> 
+                </span>
+                
             </div>
             <div class="col-12 col-sm-6 col-md-3 booksMarginTop">
-                <div class="booksCenter">
-                    <img class="cover" src="/img/books/spirit.jpg">
+                <div class="booksCenter booksRelative">
+                    <img class="cover booksRelative" src="./img/books/spirit.jpg">
+                    <img id='menuImg' src="./img/books/books_heart.png" onmouseover="hover(this);" onmouseout="hoverOut(this)" class="booksMenu booksAbsolute">
                 </div>
                 <div>
-                    <h4 href="#" class="booksCenter">Spirit hard cover</h4>
+                    <h3 href="#" class="booksCenter">Spirit hard cover</h3>
                 </div>
+                <span class="booksCenter">
+                    <h3 class="booksFloat booksPrice">$59.00</h3> 
+                </span>
             </div>
             <div class="col-12 col-sm-6 col-md-3 booksMarginTop">
-                <div class="booksCenter">
-                    <img class="cover" src="/img/books/power_peace_ful.jpg">
+                <div class="booksCenter booksRelative">
+                    <img class="cover booksRelative" src="./img/books/power_peace_ful.jpg">
+                    <img id='menuImg' src="./img/books/books_heart.png" onmouseover="hover(this);" onmouseout="hoverOut(this)" class="booksMenu booksAbsolute">
                 </div>
                 <div>
-                    <h4 href="#" class="booksCenter">Power to be peaceful</h4>
+                    <h3 href="#" class="booksCenter">Power to be peaceful</h3>
                 </div>
+                <span class="booksCenter">
+                    <h3 class="booksFloat booksPrice">$19.00</h3> 
+                </span>
             </div>
             <div class="col-12 col-sm-6 col-md-3 booksMarginTop">
-                <div class="booksCenter">
-                    <img class="cover" src="/img/books/genesis.jpg">
+                <div class="booksCenter booksRelative">
+                    <img class="cover booksRelative" src="./img/books/genesis.jpg">
+                    <img id='menuImg' src="./img/books/books_heart.png" onmouseover="hover(this);" onmouseout="hoverOut(this)" class="booksMenu booksAbsolute">
                 </div>
                 <div>
-                    <h4 href="#" class="booksCenter">Genesis</h4>
+                    <h3 href="#" class="booksCenter">Genesis</h3>
                 </div>
+                <span class="booksCenter">
+                    <h3 class="booksFloat booksPrice">$39.00</h3> 
+                </span>
             </div>            
         </div>
         <div class="row">
@@ -336,9 +392,6 @@
 
     <!-- BLOG: start-->
     <section class="container blog-bg ">
-        <div>
-            <img class="blog-top-img" src="./img/blog/Blog top.png" alt="blog-top-img">
-        </div>
         <div class="row ">
             <div class="col-12">
                 <h2 class="section-heading-1 blog">From the blog</h2>
@@ -424,8 +477,8 @@
             </div>
         </div>
         
-        <div class="row">
-            <div class="col-2 ml-5">
+        <div class="row blog-button ">
+            <div class="col-12">
                 <a href="#" class="homebutton">Discover more</a>
             </div>
         </div>
